@@ -1,4 +1,3 @@
-
 class ContoBancario:
     def __init__(self, nome, saldo):
         self.nome = nome
