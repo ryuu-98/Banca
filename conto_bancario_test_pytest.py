@@ -6,7 +6,7 @@ from conto_bancario import ContoBancario
 # mkdir -p .github/workflows    creare cartella workflows che testa prima di pushare
 
 @pytest.fixture #decoratore
-def conto():
+def test_conto():
     return ContoBancario("Mario Rossi", 100)
 
 
