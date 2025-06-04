@@ -21,7 +21,7 @@ class ContoBancario:
             raise ValueError("L'importo non può essere negativo!")
 
         elif self.saldo >= importo:
-            self.saldo -= -1
+            self.saldo -= importo
         else:
             raise ValueError("Non hai abbastanza soldi!")
 
