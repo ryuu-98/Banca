@@ -2,6 +2,8 @@ import pytest
 
 from conto_bancario import ContoBancario
 
+# pip freeze > requirements.txt crea file requisiti
+# mkdir -p .github/workflows    creare cartella workflows che testa prima di pushare
 
 @pytest.fixture #decoratore
 def conto():
